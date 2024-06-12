@@ -1,0 +1,8 @@
+---
+- hosts: webserver3
+  remote_user: root
+  become: yes
+  tasks:
+  - name: copy file
+    copy: src=file1.txt dest=/var/www/file1.txt
+  
