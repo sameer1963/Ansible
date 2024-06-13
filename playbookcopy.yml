@@ -5,4 +5,5 @@
   tasks:
   - name: copy file
     copy: src=file1.txt dest=/var/www/file1.txt
-  
+  - name: copy file2
+    copy: src=file2.txt  dest=/var/www/file2.txt
